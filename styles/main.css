@@ -678,6 +678,11 @@ footer .bottom-details {
 
 .coordonnees {
     width: 20vw;
+    padding-top: 2vw;
+}
+
+.coordonnees h2 {
+    margin-left: 4vw;
 }
 
 .des-coordonnees {
