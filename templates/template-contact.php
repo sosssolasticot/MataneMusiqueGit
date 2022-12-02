@@ -15,14 +15,14 @@
             $query = new WP_Query($args);
         ?>
         <div class="des-coordonnees">
-            <?php if($query -> have_posts()): $query->the_post(); ?>
+            <?php while($query -> have_posts()): $query->the_post(); ?>
                 <?php if(has_post_thumbnail()) : ?> <!--Si le post à une image-->
                     <div class="une-coordonnee">
                         <?php the_post_thumbnail();?> <!--Affiche l'image-->
                         <div class="coordonnee-texte"> <?php the_content(); ?> </div> <!--Affiche le contenu-->
                     </div>
                 <?php endif; ?>   
-            <?php endif; ?>  
+            <?php endwhile; ?>  
         </div>
     </div>
     <div class="formulaire" >
