@@ -41,29 +41,29 @@ h3 {
     color: #0C2D48;
 }
 
-/* scrolbar*/ 
+/* scrolbar*/
 
 /* ===== Scrollbar CSS ===== */
-  /* Firefox */
-  * {
+/* Firefox */
+* {
     scrollbar-width: auto;
     scrollbar-color: #ff8e00 #ffffff;
-  }
+}
 
-  /* Chrome, Edge, and Safari */
-  *::-webkit-scrollbar {
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
     width: 10px;
-  }
+}
 
-  *::-webkit-scrollbar-track {
+*::-webkit-scrollbar-track {
     background: transparent;
-  }
+}
 
-  *::-webkit-scrollbar-thumb {
+*::-webkit-scrollbar-thumb {
     background-color: #ff8e00;
     border-radius: 10px;
     border: none;
-  }
+}
 
 
 /* ----------------------- */
@@ -434,6 +434,7 @@ footer .bottom-details {
     padding: 0;
     margin-right: -1.5vw;
     margin-top: 0.5vh;
+    z-index: 1;
 }
 
 .search-button {
@@ -717,7 +718,7 @@ footer .bottom-details {
     text-align: justify;
 }
 
-.btn-bordure.prof a{
+.btn-bordure.prof a {
     font-size: 1em;
     font-weight: normal;
 }
@@ -833,7 +834,7 @@ footer .bottom-details {
 
 .btn-cours {
     margin-top: 1vh;
-    
+
     background: linear-gradient(to left, #FF8E01, #DC0019);
     border: none;
     border-radius: 10px;
@@ -844,7 +845,7 @@ footer .bottom-details {
     color: white;
 }
 
-.description-cours{
+.description-cours {
     display: flex;
     align-items: center;
     flex-direction: column;
