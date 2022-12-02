@@ -671,6 +671,14 @@ footer .bottom-details {
     width: 20vw;
 }
 
+.des-coordonnees {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 40vh;
+    margin-top: 5vh;
+}
+
 /* ----------- école ------------ */
 /*mission et historique*/
 .mission-historique h3 {
