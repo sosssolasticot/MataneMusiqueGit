@@ -5,7 +5,7 @@
 <h1> Nous joindre </h1>
 
 <section class="joindre"> 
-    <div class="coordonnées">
+    <div class="coordonnees">
         <h2> Coordonnées </h2>
         <?php
             $args = array(

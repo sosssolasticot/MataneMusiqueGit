@@ -656,11 +656,19 @@ footer .bottom-details {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 20vw;
+
 }
 
 .coordonnee-texte p {
     text-align: left;
+}
+
+.coordonnee-texte {
+    width: 15vw;
+}
+
+.coordonnees {
+    width: 20vw;
 }
 
 /* ----------- école ------------ */
