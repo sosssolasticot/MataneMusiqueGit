@@ -25,10 +25,21 @@
             <?php endwhile; ?>  
         </div>
     </div>
-    <div class="formulaire" >
+    <div class="formulaire-contact" >
         <h2> Formulaire de contact </h2>
+        <?php
+            $args = array(
+                'post_type' => 'post',
+                'tag' => 'formulaire-contact',
+            );
+            $querycontact = new WP_Query($args);
+        ?>
         <div>
-            
+            <?php if ($querycontact->have_posts()): ?>
+                <?php while ($querycontact->have_posts()): $querycontact->the_post(); ?>
+                    <div class="form-contact"> <?php the_content(); ?> </div>
+                <?php endwhile; ?>
+            <?php endif; ?>
         </div>
     </div>
 </section>
