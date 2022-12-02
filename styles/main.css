@@ -657,6 +657,10 @@ footer .bottom-details {
     justify-content: space-between;
 }
 
+.joindre h2 {
+    text-align: left;
+}
+
 /*coordonnées*/
 .une-coordonnee {
     display: flex;
@@ -686,7 +690,7 @@ footer .bottom-details {
 
 /*formulaire de contact*/
 .formulaire-contact {
-    width: 35vw;
+    width: 45vw;
     -webkit-box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
     box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
     border-radius: 25px;
