@@ -650,6 +650,12 @@ footer .bottom-details {
     width: 8vw;
 }
 
+/* ----------- Nous joindre ------------*/
+
+.une-coordonnee {
+    display: flex;
+}
+
 /* ----------- école ------------ */
 /*mission et historique*/
 .mission-historique h3 {
