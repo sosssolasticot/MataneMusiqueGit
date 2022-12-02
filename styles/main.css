@@ -654,6 +654,13 @@ footer .bottom-details {
 
 .une-coordonnee {
     display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+.coordonnee-texte {
+    text-align: left;
 }
 
 /* ----------- école ------------ */
