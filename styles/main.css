@@ -652,11 +652,16 @@ footer .bottom-details {
 
 /* ----------- Nous joindre ------------*/
 
+.joindre {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*coordonnées*/
 .une-coordonnee {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .coordonnee-texte p {
@@ -677,6 +682,11 @@ footer .bottom-details {
     justify-content: space-between;
     height: 40vh;
     margin-top: 5vh;
+}
+
+/*formulaire de contact*/
+.formulaire-contact {
+    width: 35vw;
 }
 
 /* ----------- école ------------ */
