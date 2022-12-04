@@ -682,7 +682,7 @@ footer .bottom-details {
 }
 
 .coordonnees h2 {
-    margin-left: 4vw;
+    margin-left: 5vw;
 }
 
 .des-coordonnees {
@@ -862,6 +862,10 @@ footer .bottom-details {
 .un-service {
     border-left: 3px solid #FF8E00;
     padding-left: 2vw;
+}
+
+.un-service:not(:first-child) {
+    margin-top: 5vh;
 }
 
 .un-service:first-child h2 {
