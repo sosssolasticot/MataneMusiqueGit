@@ -702,6 +702,14 @@ footer .bottom-details {
     padding: 2vw;
 }
 
+.form-contact p {
+    width: fit-content;
+    padding: 5px;
+    background-color: lightgrey;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
 /* ----------- école ------------ */
 /*mission et historique*/
 .mission-historique h3 {
@@ -890,7 +898,6 @@ footer .bottom-details {
 
 .btn-cours {
     margin-top: 1vh;
-
     background: linear-gradient(to left, #FF8E01, #DC0019);
     border: none;
     border-radius: 10px;
