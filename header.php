@@ -43,7 +43,7 @@
                     wp_nav_menu($args);
                     ?>
                     <div class="mobile-nav">
-                        <button class="header_button_mobile">Faire un don</button>
+                        <button class="header_button_mobile" href="https://tim.cgmatane.qc.ca/projet-4/2022/efc/eq1/don/">Faire un don</button>
                         <button class="header_button_mobile">S’inscrire</button>
                         <button class="header_button_mobile"> <img
                                 src="<?php echo get_template_directory_uri() . '/images/icons/profileicon.png' ?> "
