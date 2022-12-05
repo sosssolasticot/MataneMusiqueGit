@@ -1,11 +1,8 @@
 /* ---------------------- */
-
 /*         Base            */
-
 /* ----------------------- */
 
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap");
 
 * {
@@ -14,9 +11,7 @@
 
 body {
   font-family: "Inter", sans-serif;
-
   margin: 0;
-
   padding: 0;
 }
 
@@ -28,9 +23,7 @@ h1,
 h2,
 h3 {
   font-family: "Bree Serif", serif;
-
   font-weight: normal;
-
   text-align: center;
 }
 
@@ -40,9 +33,7 @@ h1 {
 
 h2 {
   margin-top: 0;
-
   font-size: 24pt;
-
   margin-bottom: 0;
 }
 
@@ -52,17 +43,10 @@ h3 {
 
 /* scrolbar*/
 
-/* ===== Scrollbar CSS ===== */
-
-/* Firefox */
-
 * {
   scrollbar-width: auto;
-
   scrollbar-color: #ff8e00 #ffffff;
 }
-
-/* Chrome, Edge, and Safari */
 
 *::-webkit-scrollbar {
   width: 10px;
@@ -74,39 +58,29 @@ h3 {
 
 *::-webkit-scrollbar-thumb {
   background-color: #ff8e00;
-
   border-radius: 10px;
-
   border: none;
 }
 
 /* ----------------------- */
-
 /*      Mise en page       */
-
 /* ----------------------- */
 
 .container {
   width: 80%;
-
   margin: 0 auto;
-
   display: flex;
-
   flex-direction: column;
 }
 
 .img-container img {
   width: 100%;
-
   height: auto;
 }
 
 .flex {
   display: flex;
-
   flex-wrap: wrap;
-
   justify-content: space-between;
 }
 
@@ -140,71 +114,44 @@ h3 {
 
 .header_logo_description {
   text-align: center;
-
   color: #585858;
-
   font-weight: 700;
-
   text-decoration: none;
-
   font-size: 0.9em;
 }
 
 .header_button {
   background-color: #efefef;
-
   border-radius: 20px;
-
   border-width: 0;
-
   color: #6a6a6a;
-
   cursor: pointer;
-
   font-size: 0.9em;
-
   font-weight: 600;
-
   list-style: none;
-
   text-align: center;
-
   transition: all 200ms;
-
   user-select: none;
-
   -webkit-user-select: none;
-
   touch-action: manipulation;
-
   height: 3.5vh;
-
   padding-left: 0.8vw;
-
   padding-right: 0.8vw;
 }
 
 .div_header {
   display: flex;
-
   justify-content: space-between;
-
   margin-left: 3vw;
-
   margin-right: 3vw;
-
   margin-top: 3vh;
 }
 
 .div_header_haut {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
-
   width: 40vw;
-
   margin-left: 5vw;
 }
 
@@ -215,55 +162,38 @@ h3 {
 
 .header_parent {
   height: 11vh;
-
   display: flex;
-
   flex-direction: column;
-
   justify-content: space-between;
 }
 
 .header_hr {
   background: linear-gradient(to left, #ff8e01, #dc0019);
-
   height: 3px;
-
   border: none;
-
   margin: 0;
 }
 
 .header_telephone {
   text-decoration: none;
-
   color: #6a6a6a;
-
   font-weight: 700;
-
   font-size: 1em;
 }
 
 .banner-link {
   color: #ff8f00;
-
   text-decoration: none;
-
   font-size: 1.75em;
 }
 
 .header_logo_column {
   flex-direction: column;
-
   flex-basis: 20%;
-
   display: flex;
-
   align-items: center;
-
   justify-content: center;
-
   width: 7vw;
-
   text-align: center;
 }
 
@@ -271,21 +201,15 @@ h3 {
 
 footer {
   background: #242424;
-
   width: 100%;
-
   height: 480px;
-
   bottom: 0;
-
   left: 0;
-
   border-radius: 100px 100px 0px 0px;
 }
 
 .icones {
   height: 40px;
-
   width: 40px;
 }
 
@@ -295,21 +219,17 @@ footer p {
 
 footer .content {
   max-width: 1250px;
-
   margin: auto;
 }
 
 footer .content .top {
   align-items: center;
-
   justify-content: space-between;
-
   margin-bottom: 50px;
 }
 
 .content .top .logo-details {
   color: #fff;
-
   font-size: 30px;
 }
 
@@ -319,87 +239,60 @@ footer .content .top {
 
 .content .top .media-icons a {
   height: 40px;
-
   width: 40px;
-
   margin: 0 8px;
-
   border-radius: 50%;
-
   text-align: center;
-
   line-height: 40px;
-
   color: #fff;
-
   font-size: 17px;
-
   text-decoration: none;
-
   transition: all 0.4s ease;
 }
 
 .content .link-boxes {
   width: 100%;
-
   display: flex;
-
   justify-content: space-between;
 }
 
 footer .content .link-boxes .box {
   width: calc(100% / 5 - 10px);
-
   height: 100px;
 }
 
 .content .link-boxes .box .link_name {
   color: #fff;
-
   font-size: 18px;
-
   font-weight: 400;
-
   margin-bottom: 10px;
 }
 
 .link-boxes .box .link_name::before {
   content: "";
-
   left: 0;
-
   bottom: -2px;
-
   height: 2px;
-
   width: 35px;
-
   background: rgb(255, 255, 255);
 }
 
 .content .link-boxes .box li {
   margin: 6px 0;
-
   list-style: none;
 }
 
 .content .link-boxes .box li a {
   color: #fff;
-
   font-size: 14px;
-
   font-weight: 400;
-
   text-decoration: none;
-
   opacity: 0.8;
-
   transition: all 0.4s ease;
 }
 
 .content .link-boxes .box li a:hover {
   opacity: 1;
-
   text-decoration: underline;
 }
 
@@ -409,49 +302,31 @@ footer .content .link-boxes .box {
 
 .link-boxes .input-box input {
   height: 40px;
-
   width: calc(100% + 55px);
-
   outline: none;
-
   border: 2px solid #ffffff;
-
   background: #e0620d;
-
   border-radius: 4px;
-
   padding: 0 15px;
-
   font-size: 15px;
-
   color: #fff;
-
   margin-top: 5px;
 }
 
 .link-boxes .input-box input::placeholder {
   color: #ffffff;
-
   font-size: 16px;
 }
 
 .link-boxes .input-box input[type="button"] {
   background: #fff;
-
   color: #f1742c;
-
   border: none;
-
   font-size: 18px;
-
   font-weight: 500;
-
   margin: 4px 0;
-
   opacity: 0.8;
-
   cursor: pointer;
-
   transition: all 0.4s ease;
 }
 
@@ -465,32 +340,23 @@ footer .bottom-details {
 
 .bottom-details .bottom_text {
   max-width: 1250px;
-
   margin: auto;
-
   padding: 20px 40px;
-
   display: flex;
-
   justify-content: space-between;
 }
 
 .bottom-details .bottom_text span,
 .bottom-details .bottom_text a {
   font-size: 14px;
-
   font-weight: 300;
-
   color: #fff;
-
   opacity: 0.8;
-
   text-decoration: none;
 }
 
 .bottom-details .bottom_text a:hover {
   opacity: 1;
-
   text-decoration: underline;
 }
 
@@ -502,45 +368,33 @@ footer .bottom-details {
 
 .nav-container {
   display: flex;
-
   justify-content: space-between;
-
   align-items: center;
 }
 
 .menu {
   display: flex;
-
   padding: 0;
-
   width: 45vw;
-
   justify-content: space-between;
 }
 
 .menu li {
   list-style-type: none;
-
   transition: 0.5s;
 }
 
 .menu a {
   text-decoration: none;
-
   color: #242424;
-
   transition: all 250ms ease;
-
   font-weight: 700;
-
   font-size: 1.5em;
-
   transition: 0.5s;
 }
 
 .menu a:hover {
   color: #dc0019;
-
   font-size: 1.3em;
 }
 
@@ -552,37 +406,25 @@ footer .bottom-details {
 
 .search-form {
   display: flex;
-
   flex-direction: row-reverse;
 }
 
 .search-form ::placeholder {
   font-weight: bold;
-
   color: #6a6a6a;
-
   text-align: center;
 }
 
 .header_search {
   border: none;
-
   font-size: 1.2em;
-
   color: #6a6a6a;
-
   float: left;
-
   border-radius: 23px;
-
   background-color: transparent;
-
   padding: 0;
-
   margin-right: -1.5vw;
-
   margin-top: 0.5vh;
-
   z-index: 1;
 }
 
@@ -592,15 +434,10 @@ footer .bottom-details {
 
 .search-input {
   font-size: 0.9em;
-
   background-color: #efefef;
-
   border: none;
-
   border-radius: 23px;
-
   height: 3.5vh;
-
   padding: 0 0 0 2vw;
 }
 
@@ -608,47 +445,31 @@ footer .bottom-details {
 
 .banner {
   width: 98vw;
-
   background-color: grey;
-
   border-radius: 45px;
-
   margin-top: 1vh;
-
   margin-left: -9vw;
-
   margin-right: auto;
 }
 
 /* Widget accueil */
 
 .widget-img {
-  background: radial-gradient(
-    circle,
-    rgba(255, 143, 0, 0.8) 0%,
-    rgba(255, 143, 0, 0) 60%
-  );
-
+  background: radial-gradient(circle,
+      rgba(255, 143, 0, 0.8) 0%,
+      rgba(255, 143, 0, 0) 60%);
   background-size: 100%;
-
   background-repeat: no-repeat;
-
   background-position: 50%;
 }
 
 .widget-accueil {
   -webkit-box-shadow: 0px 5px 10px 3px #cfcfcf;
-
   box-shadow: 0px 5px 10px 3px #cfcfcf;
-
   max-width: 10vw;
-
   border-radius: 45px;
-
   height: 25vh;
-
   text-align: center;
-
   padding-top: 2.5vh;
 }
 
@@ -658,9 +479,7 @@ footer .bottom-details {
 
 .widget {
   display: flex;
-
   justify-content: space-evenly;
-
   margin-top: 15vh;
 }
 
@@ -668,9 +487,7 @@ footer .bottom-details {
 
 .ecole-info p {
   width: 55vw;
-
   margin-left: auto;
-
   margin-right: auto;
 }
 
@@ -680,38 +497,26 @@ footer .bottom-details {
 
 .btn-bordure {
   border: solid 3px transparent;
-
   border-radius: 20px;
-
   background-image: linear-gradient(white, white),
     linear-gradient(to left, #ff8e01, #dc0019);
-
   background-origin: border-box;
-
   background-clip: content-box, border-box;
-
   padding: 10px;
-
   background-clip: padding-box, border-box;
-
   margin-top: 1vh;
 }
 
 .btn-bordure a {
   text-decoration: none;
-
   color: black;
-
   font-size: 1.8em;
-
   font-weight: bold;
 }
 
 .ecole {
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -719,9 +524,7 @@ footer .bottom-details {
 
 .actualite {
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
 }
 
@@ -739,23 +542,18 @@ footer .bottom-details {
 
 .actu-contient img {
   width: 15vw;
-
   height: 15vw;
-
   object-fit: cover;
-
   border-radius: 10px;
 }
 
 .actu-contient p {
   margin-left: 1vw;
-
   margin-top: 0;
-
   text-align: center;
 }
 
-.actu-contient img ~ div p {
+.actu-contient img~div p {
   text-align: left;
 }
 
@@ -765,19 +563,14 @@ footer .bottom-details {
 
 .btn-actu {
   float: right;
-
   background: linear-gradient(to left, #ff8e00, #dc0019);
-
   border: none;
-
   border-radius: 10px;
-
   padding: 8px;
 }
 
 .btn-actu a {
   color: white;
-
   text-decoration: none;
 }
 
@@ -794,50 +587,34 @@ footer .bottom-details {
 
 .evenement-position {
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
-
   height: 25vh;
-
   width: 70vw;
-
   background-color: #ff8f0030;
-
   border-radius: 30px;
-
   margin-left: auto;
-
   margin-right: auto;
-
   margin-top: 3vh;
 }
 
 .evenement {
   display: flex;
-
   justify-content: space-evenly;
-
   width: 50vw;
 }
 
 .evenement-position img {
   height: 25vh;
-
   width: 20vw;
-
   object-fit: cover;
-
   border-radius: 30px;
 }
 
 .evenement-date p,
 .evenement-lieu p {
   margin: 0;
-
   vertical-align: baseline;
-
   font-weight: bold;
 }
 
@@ -847,21 +624,15 @@ footer .bottom-details {
 
 .evenement .evenement-infos {
   text-align: left;
-
   width: 25vw;
-
   align-items: flex-start;
 }
 
 .evenement-categorie {
   background-color: #f46706;
-
   color: white;
-
   padding: 12px;
-
   border-radius: 50px;
-
   margin-top: -12px;
 }
 
@@ -869,17 +640,11 @@ footer .bottom-details {
 .evenement-date,
 .evenement-lieu {
   display: flex;
-
   flex-direction: column;
-
   justify-content: space-between;
-
   height: 10vh;
-
   align-items: center;
-
   text-align: center;
-
   width: 8vw;
 }
 
@@ -887,7 +652,6 @@ footer .bottom-details {
 
 .joindre {
   display: flex;
-
   justify-content: space-between;
 }
 
@@ -899,9 +663,7 @@ footer .bottom-details {
 
 .une-coordonnee {
   display: flex;
-
   align-items: center;
-
   justify-content: space-between;
 }
 
@@ -915,7 +677,6 @@ footer .bottom-details {
 
 .coordonnees {
   width: 20vw;
-
   padding-top: 2vw;
 }
 
@@ -925,13 +686,9 @@ footer .bottom-details {
 
 .des-coordonnees {
   display: flex;
-
   flex-direction: column;
-
   justify-content: space-between;
-
   height: 40vh;
-
   margin-top: 5vh;
 }
 
@@ -939,51 +696,43 @@ footer .bottom-details {
 
 .formulaire-contact {
   width: 45vw;
-
   -webkit-box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
-
   box-shadow: 0px 4px 8px 5px rgba(0, 0, 0, 0.25);
-
   border-radius: 25px;
-
   padding: 2vw;
 }
 
 .form-contact p {
   width: fit-content;
-
   padding: 5px;
-
   background-color: lightgrey;
-
   border-radius: 5px;
-
   font-weight: 300;
 }
 
 .form-fields {
-    border: 1px solid orange;
+  border: 1px solid orange;
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-submit-container {
-    float: right;
+  float: right;
 }
-    
+
 div.wpforms-container-full .wpforms-form .wpforms-page-button {
-    font-size: 1em;
-    padding: 10px 15px;
-    background: linear-gradient(to left, #ff8e01, #dc0019);
-    border: none;
-    border-radius: 10px;
-    color: white;
+  font-size: 1em;
+  padding: 10px 15px;
+  background: linear-gradient(to left, #ff8e01, #dc0019);
+  border: none;
+  border-radius: 10px;
+  color: white;
 }
 
 div.wpforms-container-full .wpforms-form button[type=submit] {
-    background : linear-gradient(to left, #ff8e01, #dc0019); 
-    border: none; 
-    color: white; 
-    font-size: 1em; 
-    padding: auto;
+  background: linear-gradient(to left, #ff8e01, #dc0019);
+  border: none;
+  color: white;
+  font-size: 1em;
+  padding: auto;
 }
 
 /* ----------- école ------------ */
@@ -1000,9 +749,7 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .mission-historique .services-image img {
   width: 14vw;
-
   height: 38vh;
-
   margin-right: 2vw;
 }
 
@@ -1018,55 +765,40 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .grid-enseignants {
   display: flex;
-
   flex-wrap: wrap;
-
   flex-direction: row;
-
   justify-content: space-between;
 }
 
 .img-enseignant {
   width: 12vw;
-
   height: 30vh;
-
   object-fit: cover;
-
   border-radius: 15px;
-
   margin-top: 3ch;
-
   margin-right: 2vw;
 }
 
 .textes_enseignants {
   width: 23vw;
-
   border-left: 3px solid #ff8e00;
-
   padding-left: 2vw;
 }
 
 .textes_enseignants .instru_prof {
   font-style: italic;
-
   font-weight: 300;
 }
 
 .article-enseignant {
   display: flex;
-
   justify-content: space-between;
-
   width: 37vw;
-
   margin-top: 8vh;
 }
 
 .article-enseignant h3 {
   text-align: left;
-
   color: #ff8e00;
 }
 
@@ -1076,7 +808,6 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .btn-bordure.prof a {
   font-size: 1em;
-
   font-weight: normal;
 }
 
@@ -1088,25 +819,19 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .fondation {
   display: flex;
-
   flex-direction: column;
-
   align-items: center;
 }
 
 .fondation h3 {
   color: #ff8e00;
-
   text-align: left;
 }
 
 .infos-dons {
   display: flex;
-
   width: 43vw;
-
   justify-content: space-between;
-
   margin-top: 5vh;
 }
 
@@ -1116,7 +841,6 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .infos-fondation:last-child {
   border-left: 3px solid #ff8e00;
-
   padding-left: 2vw;
 }
 
@@ -1126,17 +850,11 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .infos-fondation li:before {
   content: "\2022";
-
   display: block;
-
   position: relative;
-
   max-height: 0;
-
   left: -1.5vw;
-
   color: #ff8e00;
-
   font-size: 20px;
 }
 
@@ -1144,15 +862,12 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .services h2 {
   line-height: 30px;
-
   margin-top: 0;
 }
 
 .services .widget-accueil {
   max-width: 20vw;
-
   height: auto;
-
   padding: 2vh;
 }
 
@@ -1170,25 +885,19 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .services-image img {
   width: 25vw;
-
   height: 80vh;
-
   object-fit: cover;
-
   border-radius: 45px;
 }
 
 .services-position {
   display: flex;
-
   justify-content: space-evenly;
-
   margin-top: 7vh;
 }
 
 .un-service {
   border-left: 3px solid #ff8e00;
-
   padding-left: 2vw;
 }
 
@@ -1204,87 +913,58 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 .article-cours {
   position: relative;
-
   justify-items: center;
-
   width: 18vw;
-
   text-align: center;
-
   margin-bottom: 3vh;
 }
 
 .img-cours {
   width: 30vh;
-
   border-radius: 3vh;
-
   object-fit: cover;
 }
 
 .btn-cours {
   margin-top: 1vh;
-
   background: linear-gradient(to left, #ff8e01, #dc0019);
-
   border: none;
-
   border-radius: 10px;
-
   padding: 8px;
-
   position: absolute;
-
   top: 317px;
-
   left: 61px;
-
   color: white;
 }
 
 .description-cours {
   display: flex;
-
   align-items: center;
-
   flex-direction: column;
 }
 
 .titre-cours {
   margin-top: 61px;
-
   font-size: 32pt;
-
   margin-bottom: 0;
-
   font-size: 2.5vh;
-
   position: absolute;
-
   top: 228px;
-
   left: 61px;
-
   color: white;
 }
 
 .btn-cours a {
   color: white;
-
   text-decoration: none;
 }
 
 .grid-cours {
   display: flex;
-
   flex-wrap: wrap;
-
   margin-top: 5vh;
-
   align-items: center;
-
   flex-direction: row;
-
   justify-content: center;
 }
 
@@ -1292,17 +972,13 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 .text-cours-ind,
 .text-cours-ind ul {
   text-align: center;
-
   list-style-type: none;
 }
 
 .tarif-ind {
   display: flex;
-
   margin-top: 3vh;
-
   align-items: center;
-
   justify-content: space-evenly;
 }
 
@@ -1310,30 +986,20 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
 
 table {
   width: 100%;
-
   background-color: #f0f0f0;
-
   border-collapse: collapse;
-
   border-width: 0px;
-
   border-style: solid;
-
   color: #2e2e2e;
-
   text-align: center;
-
   overflow: hidden;
 }
 
 table td,
 table th {
   border-width: 0px;
-
   border-color: #e0e0e0;
-
   border-style: solid;
-
   padding: 5px;
 }
 
@@ -1343,31 +1009,24 @@ table thead {
 
 .orange {
   color: #ff8f00;
-
   font-weight: bold;
 }
 
 /* ----------------------- */
-
 /*        Responsive       */
-
 /* ----------------------- */
 
 /* toggle menu */
 
 .toggle-button {
   display: none;
-
   flex-direction: column;
-
   justify-content: space-between;
 }
 
 .toggle-button .bar {
   height: 3px;
-
   background: linear-gradient(to left, #ff8e01, #dc0019);
-
   border-radius: 10px;
 }
 
@@ -1405,9 +1064,7 @@ table thead {
 
   .banner {
     width: 96vw;
-
     margin-left: -8vw;
-
     height: 66vh;
   }
 
@@ -1460,7 +1117,6 @@ table thead {
 
   .widget-accueil {
     max-width: 19vw;
-
     padding: 2.5vh 1vw;
   }
 }
@@ -1521,7 +1177,6 @@ table thead {
 
   footer .content .link-boxes .input-box {
     width: 40%;
-
     margin-top: 10px;
   }
 
@@ -1533,11 +1188,8 @@ table thead {
 
   .widget {
     justify-content: space-between;
-
     margin-top: 3vh;
-
     width: 93vw;
-
     margin-left: -1.5vw;
   }
 
@@ -1549,7 +1201,6 @@ table thead {
 
   .banner {
     width: 94vw;
-
     margin-left: -2vw;
   }
 
@@ -1575,7 +1226,6 @@ table thead {
 
   .toggle-button {
     display: block;
-
     position: relative;
   }
 
@@ -1594,66 +1244,40 @@ table thead {
 
   .toggle-button .menu-burger {
     position: absolute;
-
     right: -100px;
-
     top: -100px;
-
     z-index: 10;
-
     width: 200px;
-
     height: 200px;
-
     border-radius: 50% 50% 50% 50%;
-
     -webkit-transition: 0.5s ease-in-out;
-
     transition: 0.5s ease-in-out;
-
     cursor: pointer;
   }
 
   .toggle-button .bar {
     position: absolute;
-
     top: 135px;
-
     left: 50px;
-
     width: 30px;
-
     height: 2px;
-
     background: linear-gradient(to left, #ff8e01, #dc0019);
-
     display: block;
-
     -webkit-transform-origin: center;
-
     transform-origin: center;
-
     -webkit-transition: 0.3s ease-in-out;
-
     transition: 0.3s ease-in-out;
   }
 
   .toggle-button .bar::after,
   .toggle-button .bar::before {
     -webkit-transition: 0.3s ease-in-out;
-
     transition: 0.3s ease-in-out;
-
     content: "";
-
     position: absolute;
-
     display: block;
-
     width: 100%;
-
     height: 100%;
-
     background: linear-gradient(to left, #ff8e01, #dc0019);
   }
 
@@ -1667,135 +1291,93 @@ table thead {
 
   .toggle-button .nav-container {
     z-index: 9;
-
     position: absolute;
-
     top: 50vh;
-
     left: 45vw;
-
     -webkit-transform: translate(-50%, -50%);
-
     transform: translate(-50%, -50%);
-
     opacity: 0;
-
     -webkit-transition: 0.4s 0s ease-in-out;
-
     transition: 0.4s 0s ease-in-out;
   }
 
-  .toggle-button input:checked + .menu-burger {
+  .toggle-button input:checked+.menu-burger {
     /*box-shadow: 0 0 0 100vw #FFFFFF60, 0 0 0 100vh #FFFFFF60;*/
-
     border-radius: 0;
   }
 
-  .toggle-button input:checked ~ .nav-container {
+  .toggle-button input:checked~.nav-container {
     background-color: #dedede60;
-
     backdrop-filter: blur(3px);
-
     width: 100vw;
-
     height: 100vh;
-
     margin: 0;
   }
 
-  .toggle-button input:checked + .menu-burger .bar {
+  .toggle-button input:checked+.menu-burger .bar {
     -webkit-transform: rotate(45deg);
-
     transform: rotate(45deg);
   }
 
-  .toggle-button input:checked + .menu-burger .bar:after {
+  .toggle-button input:checked+.menu-burger .bar:after {
     -webkit-transform: rotate(90deg);
-
     transform: rotate(90deg);
-
     bottom: 0;
   }
 
-  .toggle-button input:checked + .menu-burger .bar:before {
+  .toggle-button input:checked+.menu-burger .bar:before {
     -webkit-transform: rotate(90deg);
-
     transform: rotate(90deg);
-
     top: 0;
   }
 
-  .toggle-button input + .menu-burger + ul,
-  .toggle-button input + .menu-burger + div {
+  .toggle-button input+.menu-burger+ul,
+  .toggle-button input+.menu-burger+div {
     display: none;
   }
 
-  .toggle-button input:checked + .menu-burger + ul,
-  .toggle-button input:checked + .menu-burger + div {
+  .toggle-button input:checked+.menu-burger+ul,
+  .toggle-button input:checked+.menu-burger+div {
     opacity: 1;
-
     margin-right: 0;
-
     display: flex;
-
     flex-direction: column;
-
     text-align: center;
-
     left: -47vw;
-
     top: 47vh;
   }
 
   .toggle-button a {
     color: black;
-
     text-decoration: none;
-
     font-size: 18pt;
-
     -webkit-transform: translate(-50%, -50%);
-
     transform: translate(-50%, -50%);
-
     width: 80%;
   }
 
   .header_button_mobile {
     border: none;
-
     background-color: transparent;
-
     font-size: 18pt;
-
     color: black;
-
     font-weight: 700;
   }
 
   .mobile-nav {
     display: flex;
-
     flex-direction: column;
-
     width: 66vw;
-
     height: 30vh;
-
     align-items: center;
-
     justify-content: space-between;
   }
 
   .menu {
     display: flex;
-
     flex-direction: column;
-
     justify-content: space-between;
-
     height: 50vh;
-
     margin-top: 15vh;
   }
 
@@ -1811,11 +1393,8 @@ table thead {
 
   .content .top .media-icons a {
     height: 35px;
-
     width: 35px;
-
     font-size: 14px;
-
     line-height: 35px;
   }
 
@@ -1840,15 +1419,12 @@ table thead {
 
   .widget-accueil {
     max-width: 30vw;
-
     height: auto;
   }
 
   .widget h3 {
     margin: 1vh 0;
-
     font-size: 1em;
-
     height: auto;
   }
 
@@ -1862,25 +1438,19 @@ table thead {
 
   .widget {
     margin-top: 3vh;
-
     width: 92.5vw;
-
     margin-left: -1vw;
   }
 
   .widget-img {
     max-width: 15vw;
-
     width: 50%;
   }
 
   .widget-accueil div:last-child {
     display: flex;
-
     align-items: flex-end;
-
     justify-content: center;
-
     height: 2vh;
   }
 
@@ -1892,7 +1462,6 @@ table thead {
 
   .banner {
     width: 94vw;
-
     margin-left: -2vw;
   }
 }
