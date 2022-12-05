@@ -733,6 +733,7 @@ div.wpforms-container-full .wpforms-form button[type=submit] {
   color: white !important;
   font-size: 1em !important;
   padding: auto !important;
+  border-radius: 10px !important;
 }
 
 /* ----------- école ------------ */
