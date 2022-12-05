@@ -719,20 +719,20 @@ div.wpforms-container-full .wpforms-form .wpforms-submit-container {
 }
 
 div.wpforms-container-full .wpforms-form .wpforms-page-button {
-  font-size: 1em;
-  padding: 10px 15px;
-  background: linear-gradient(to left, #ff8e01, #dc0019);
-  border: none;
-  border-radius: 10px;
-  color: white;
+  font-size: 1em !important;
+  padding: 10px 15px !important;
+  background: linear-gradient(to left, #ff8e01, #dc0019) !important;
+  border: none !important;
+  border-radius: 10px !important;
+  color: white !important;
 }
 
 div.wpforms-container-full .wpforms-form button[type=submit] {
-  background: linear-gradient(to left, #ff8e01, #dc0019);
-  border: none;
-  color: white;
-  font-size: 1em;
-  padding: auto;
+  background: linear-gradient(to left, #ff8e01, #dc0019) !important;
+  border: none !important;
+  color: white !important;
+  font-size: 1em !important;
+  padding: auto !important;
 }
 
 /* ----------- école ------------ */
