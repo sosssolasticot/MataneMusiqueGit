@@ -67,7 +67,7 @@ Template Name: Services
                 <?php endwhile; ?>
             <?php endif; ?>
         </div>
-        <div service-img>
+        <div class="service-img">
             <?php
                 $args = array(
                 'post_type' => 'post',
