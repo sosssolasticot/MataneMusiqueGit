@@ -1,4 +1,4 @@
-<?php /* Template Name: Gabarit Contact */?>
+<?php /* Template Name: Gabarit Don */?>
 
 <?php get_header(); ?>
 
